@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
-import "./css/Navbar.css";
-import ContactModal from "./ContactModal";
+import "./CSS/Navbar.css";
 import { 
 	IoMdClose,
 	IoMdMenu,
@@ -24,7 +23,7 @@ export default function Navbar() {
       <div className="nav">
          <div className="nav-header">
             <NavLink className="nav-title" to="/">
-               Aumni
+               CatMaker
             </NavLink>
          </div>
 
@@ -37,12 +36,12 @@ export default function Navbar() {
          {nav && (
 				<>
             <div className="hb-nav">
-					<NavLink to="../about">About</NavLink>
-					<NavLink to="../services">Service</NavLink>
+					{/* <NavLink to="../about">About</NavLink>
+					<NavLink to="../services">Service</NavLink> */}
+					<NavLink to="../logIn">Log In</NavLink>
 					{/* <NavLink to='../blogs'>
 							Blogs
 						</NavLink> */}
-            	<ContactModal />
             </div>
 				<button className="hamburgerMenu" onClick={toggleNav}>
                <IoMdClose />
@@ -52,12 +51,12 @@ export default function Navbar() {
          )}
 
          <div className="nav-links">
-            <NavLink to="../about">About</NavLink>
-            <NavLink to="../services">Service</NavLink>
+            {/* <NavLink to="../about">About</NavLink>
+            <NavLink to="../services">Service</NavLink> */}
+            <NavLink to="../logIn">LogIn</NavLink>
             {/* <NavLink to='../blogs'>
           			Blogs
         			</NavLink> */}
-            <ContactModal />
          </div>
       </div>
    );

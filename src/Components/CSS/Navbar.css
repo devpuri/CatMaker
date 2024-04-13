@@ -1,5 +1,6 @@
 
 .nav {
+  background-color: black;
   font-family: "Yeseva One", serif;
   font-weight: 400;
   font-style: normal;
@@ -9,7 +10,6 @@
   margin: 0;
   width: 100%;
   padding: 3rem 5rem 2rem 5rem;
-  background: none;
   position: relative;
 
 }
