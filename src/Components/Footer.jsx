@@ -14,12 +14,8 @@ export default function Footer() {
           <div className="footer-about">
             <h6>About</h6>
             <p className="text-justify">
-              Aumni Manageement services is a premier provider of manpower
-              outsourcing solutions, dedicated to delivering high-quality
-              staffing services tailored to meet the unique needs of businesses.
-              With a commitment to excellence and professionalism, we strive to
-              help organizations streamline their operations and achieve their
-              goals.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eius impedit quo minima voluptate qui assumenda. Ab, quos blanditiis suscipit architecto repellat nostrum amet voluptatem nihil facilis aspernatur est eligendi?
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus est veritatis aliquid, hic accusantium, eum doloribus, officia placeat fuga reprehenderit blanditiis vero a debitis. Numquam optio nemo eius laborum ullam.
             </p>
           </div>
 
@@ -27,10 +23,10 @@ export default function Footer() {
             <h6>Reach us at</h6>
             <ul className="footer-links">
               <li>
-                <a href="./">Phone: +91 8800279748</a>
+                <a href="./">Phone: +1 (123) 456-7890</a>
               </li>
               <li>
-                <a href="./">Email: info@aumnimanagement.com</a>
+                <a href="./">Email: info@abc.com</a>
               </li>
             </ul>
           </div>
@@ -44,10 +40,10 @@ export default function Footer() {
               <li>
               </li>
               <li>
-                <a href="http://aumnimanagement.com/team">Team</a>
+                <a href="#">Team</a>
               </li>
               <li>
-                <a href="http://aumnimanagement.com/privacy-policy/">
+                <a href="#">
                   Privacy Policy
                 </a>
               </li>
@@ -60,7 +56,7 @@ export default function Footer() {
         <div className="row">
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">
-              Copyright &copy; 2024 Aumni Management Services Pvt. Lmt. All
+              Copyright &copy; 2024 TheCatMaker Pvt. Lmt. All
               rights reserved.
             </p>
           </div>
@@ -69,7 +65,7 @@ export default function Footer() {
               <li>
                 <a
                   className="facebook"
-                  href="https://facebook.com/aumnimanagement"
+                  href="#"
                 >
                   <FaFacebookF />
                 </a>
@@ -77,7 +73,7 @@ export default function Footer() {
               <li>
                 <a
                   className="twitter"
-                  href="https://facebook.com/aumnimanagement"
+                  href="#"
                 >
                   <FaTwitter />
                 </a>
@@ -85,7 +81,7 @@ export default function Footer() {
               <li>
                 <a
                   className="linkedin"
-                  href="https://facebook.com/aumnimanagement"
+                  href="#"
                 >
                   <FaLinkedinIn />
                 </a>

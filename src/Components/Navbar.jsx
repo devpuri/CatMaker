@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="nav">
          <div className="nav-header">
             <NavLink className="nav-title" to="/">
-               CatMaker
+               TheCatMaker
             </NavLink>
          </div>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
          <div className="nav-links">
             {/* <NavLink to="../about">About</NavLink>
             <NavLink to="../services">Service</NavLink> */}
-            <NavLink to="../logIn">LogIn</NavLink>
+            <NavLink to="../logIn">Log In</NavLink>
             {/* <NavLink to='../blogs'>
           			Blogs
         			</NavLink> */}

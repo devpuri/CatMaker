@@ -1,13 +1,15 @@
 
 .Auth-form-container {
+  background-color:hsla(219,71%,8%,1);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
 }
 
 .Auth-form {
+  margin-top: 5rem;
   width: 420px;
   box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
   padding-top: 30px;
@@ -40,8 +42,10 @@ label {
 }
 
 .link-primary{
+  color: blue;
   margin-left: 1rem;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .form-group{
@@ -49,5 +53,44 @@ label {
   display: flex;
 }
 .title-label{
-  width: 6rem;
+  width: 7rem;
+}
+
+.form-control{
+  width: 11rem;
+}
+
+.inputf {
+  width: 11rem;
+  background: 0;
+  border: 0;
+  outline: none;
+  font-size: 1em;
+  transition: padding 0.3s 0.2s ease;
+}
+.inputf:focus {
+  padding-bottom: 5px;
+}
+.inputf:focus + .line:after {
+  transform: scaleX(1);
+}
+.field {
+  position: relative;
+}
+.field .line {
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: -8px;
+  background: #bdc3c7;
+}
+.field .line:after {
+  content: " ";
+  position: absolute;
+  float: right;
+  width: 100%;
+  height: 3px;
+  transform: scalex(0);
+  transition: transform 0.3s ease;
+  background: #1abc9c;
 }

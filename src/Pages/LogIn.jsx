@@ -76,11 +76,10 @@ export default function LogIn(props) {
           </div>
           <div className="form-group mt-3">
           <div className="title-label"><label>Full Name</label></div>
-            <input
-              type="email"
-              className="form-control mt-1"
-              placeholder="e.g Jane Doe"
-            />
+          <div class="field">
+            <input className="inputf" type="name" placeholder="e.g Jane Doe"/>
+            <div class="line"></div>
+          </div>
           </div>
           <div className="form-group mt-3">
             <div className="title-label"><label>Email address</label></div>
