@@ -1,7 +1,7 @@
 .hero-section{
   color: white;
   padding: 5rem;
-  height: 50vh;
+  height: 70vh;
   background-color:hsla(219,71%,8%,1);
   background-image:
     radial-gradient(at 54% 99%, hsla(254,36%,56%,0.7) 0px, transparent 50%),
@@ -11,6 +11,7 @@
 
 .hero-tagline{
   text-align: center;
+  margin-top: 5rem;
   font-size: 2.3em;
 }
 
