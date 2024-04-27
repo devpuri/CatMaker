@@ -49,7 +49,6 @@ label {
 }
 
 .form-group{
-  margin-bottom: 1rem;
   display: flex;
 }
 .title-label{
@@ -93,4 +92,30 @@ label {
   transform: scalex(0);
   transition: transform 0.3s ease;
   background: #1abc9c;
+}
+
+.Email-box{
+  margin-bottom: 1rem;
+}
+
+.error-box{
+  margin: 7px 0 0 0;
+}
+.error-text{
+  font-size: .8em;
+  color: red;
+}
+
+.button-box{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  padding: 10px 2rem;
+  color: white;
+  border: none;
+  background-color:hsla(219,71%,8%,1);
+  border-radius: 1rem;
 }
